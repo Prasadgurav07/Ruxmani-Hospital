@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Ruxmani Lying-In Hospital</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/Ruxmani_logo.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: FlexStart
+  * Template URL: https://bootstrapmade.com/flexstart-bootstrap-startup-template/
+  * Updated: Nov 01 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+<script>
+  function showContent(xi) {
+      const num_of_total_sections = 8; // Corrected declaration
+      
+      for (let i = 1; i <= num_of_total_sections; i++) {
+          let cbox = document.getElementById("section" + i);
+          cbox.style.display = (i === xi) ? "block" : "none";
+      }
+  }
+</script>
+<body class="service-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/Ruxmani_logo.png" alt="">
+        <!-- <h1 class="sitename">FlexStart</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          
+          <li><a href="blog-details.html">Doctors</a></li>
+           <li><a href="timetable.html">TimeTable</a></li>
+           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> 
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li class="listing-dropdown"><a href="#departments"><span>Departments</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li>
+                <a href="department-details.html">Physiotherapy</a>
+                <a href="department-details.html">Sonography</a>
+              </li>
+              <li>
+                <a href="department-details.html">Outdoor Patient Department</a>
+                <a href="department-details.html">Indoor Patient Department</a>
+              </li>
+              <li>
+                <a href="department-details.html">Pathology</a>
+                <a href="department-details.html">Operation Theatre</a>
+              </li>
+              <li>
+                <a href="department-details.html">NICU Department</a>
+                <a href="department-details.html">Wards</a>
+              </li>
+            </ul>
+          </li> 
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted flex-md-shrink-0" href="index.html#contact">Contact Now !</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Department Details</h1>
+              <p class="mb-0">
+                Physiotherapy aids in recovery through exercises. Sonography performs ultrasound imaging. Outdoor Patient Department (OPD) treats non-admitted patients, while Indoor Patient Department (IPD) manages admitted ones. Pathology conducts lab tests. Operation Theatre (OT) handles surgeries. NICU cares for critically ill newborns. Wards house patients based on their medical needs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Department Details</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Department List</h4>
+              <div class="services-list">
+                <li onclick="showContent(1)"><i class="bi bi-arrow-right-circle"></i><span>Physiotherapy</span></li>
+                <li onclick="showContent(2)"><i class="bi bi-arrow-right-circle"></i><span>Sonography</span></li>
+                <li onclick="showContent(3)"><i class="bi bi-arrow-right-circle"></i><span>Outdoor Patient Department</span></li>
+                <li onclick="showContent(4)"><i class="bi bi-arrow-right-circle"></i><span>Indoor Patient Department</span></li>
+                <li onclick="showContent(5)"><i class="bi bi-arrow-right-circle"></i><span>Pathology</span></li>
+                <li onclick="showContent(6)"><i class="bi bi-arrow-right-circle"></i><span>Operation Theatre</span></li>
+                <li onclick="showContent(7)"><i class="bi bi-arrow-right-circle"></i><span>NICU Department</span></li>
+                <li onclick="showContent(8)"><i class="bi bi-arrow-right-circle"></i><span>Wards</span></li>
+              </div>
+            </div><!-- End Services List -->
+
+            <!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>022 3515 2512</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="ruxmanihospital@yahoo.in">ruxmanihospital@yahoo.in</a></p>
+            </div>
+
+          </div>
+          <div class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200">
+          <section id="section1" style="display: block;">
+            <h3 style="text-align: center;">PHYSIOTHERAPY</h3>
+              <img src="assets/img/dept_physio-10.jpg" alt="" class="img-fluid services-img">
+              <h3>IFT Ultrasound MLS (MultiWave Locked System) Laser Strong surge stimulation Combination Therapy Long wave Therapy Heat & Cryotherapy</h3>
+              <p>
+                Weight & Resistance Bands Wellness Theraband Station Balance Boards & Stability Traines etc.
+              </p>
+              <!-- <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+              </ul> -->
+              <p>
+                Musculoskeletal cases namely Pre & Post Rehabilitation after total knee & hip replacements. Rehabilitation Post Fractures. Cervical pain Test Neck Shoulder conditions like Frozen Shoulder,Shoulder dislocation etc.Tennis golfer's elbow,carpal Tunnel Syndrome,Tendon injuries/Post surgical interventions. Back ache,Slip discs,Para spinal muscle spasm,scoliosis. Patellar dislocations,Osteoarthritis of knees,Meniscal and Ligament injuries Arthroscopies.</p>
+              <p>
+                Neurological cases namely Parkinsonism Hemiplegia,Hemipartesis Bell's Palsy,Facial Palsy,Nerve Palsy. Balance & Co-ordination disorders. Paediatric conditions like cerebral palsy,Delayed milestones Torticollis.</p>
+            
+          </section>
+          <section id="section2" style="display: none;">
+            <h3 style="text-align: center;">SONOGRAPHY</h3>
+              <img src="assets/img/sono.jpg" alt="" class="img-fluid services-img">
+              <h3>
+                Sonography, or ultrasound, is a diagnostic imaging technique using high-frequency sound waves to visualize internal organs, tissues, and fetal development.</h3>
+             <div class="row">
+              <div class="col-md-6">
+                <h5>Services</h5>
+              <ul>
+               <li><i class="bi bi-check-circle"></i> <span>Obstetric Ultrasound: Dating, growth, and fetal well-being scans.</span></li>
+               <li><i class="bi bi-check-circle"></i> <span>Fetal abdominal, KUB sonography examinations.</span></li>
+               <li><i class="bi bi-check-circle"></i> <span>3D Ultrasound: Enhanced fetal imaging.</span></li>
+             </ul> 
+              </div>
+             <div class="col-md-6">
+              <h5>Benefits</h5>
+              <ul>
+               <li><i class="bi bi-check-circle"></i> <span>Accurate fetal dating and growth monitoring.</span></li>
+               <li><i class="bi bi-check-circle"></i> <span>Early detection of fetal anomalies.</span></li>
+               <li><i class="bi bi-check-circle"></i> <span>Enhanced patient care and satisfaction.</span></li>
+             </ul> 
+             </div>
+             </div>
+              
+              
+          </section>
+          <section id="section3" style="display: none;">
+            <h2 style="text-align: center;">OPD</h2>
+            <img src="assets/img/opd.jpg" alt="" class="img-fluid services-img">
+              <h3>The OPD of a Maternity and Childcare Hospital provides comprehensive healthcare services to pregnant women, new mothers, and children. The department offers a range of services, from routine check-ups to specialized care, ensuring the well-being of mothers and children</h3>
+              <!-- <p>
+                Weight & Resistance Bands Wellness Theraband Station Balance Boards & Stability Traines etc.
+              </p>
+               <ul>
+                <li><i class="bi bi-check-circle"></i> <span>Aut eum totam accusantium voluptatem.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Assumenda et porro nisi nihil nesciunt voluptatibus.</span></li>
+                <li><i class="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
+              </ul> 
+              <p>
+                Musculoskeletal cases namely Pre & Post Rehabilitation after total knee & hip replacements. Rehabilitation Post Fractures. Cervical pain Test Neck Shoulder conditions like Frozen Shoulder,Shoulder dislocation etc.Tennis golfer's elbow,carpal Tunnel Syndrome,Tendon injuries/Post surgical interventions. Back ache,Slip discs,Para spinal muscle spasm,scoliosis. Patellar dislocations,Osteoarthritis of knees,Meniscal and Ligament injuries Arthroscopies.</p>
+              <p>
+                Neurological cases namely Parkinsonism Hemiplegia,Hemipartesis Bell's Palsy,Facial Palsy,Nerve Palsy. Balance & Co-ordination disorders. Paediatric conditions like cerebral palsy,Delayed milestones Torticollis.</p>
+             -->
+          </section>
+          <section id="section4" style="display: none;">
+            <h2 style="text-align: center;">IPD</h2>
+            <img src="assets/img/ipd.jpg" alt="" class="img-fluid services-img">
+              <h3>The IPD in a Maternity Hospital provides comprehensive, 24/7 care to pregnant women, new mothers, and newborns. The department ensures a safe and supportive environment for patients requiring hospitalization.</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Services</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span>Labor and Delivery: Birthing suites with fetal monitoring and emergency care.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Postpartum Care: Recovery rooms for new mothers, lactation support, and newborn care.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Antepartum Care: Hospitalization for high-risk pregnancies.</span></li>
+               </ul> 
+                </div>
+               <div class="col-md-6">
+                <h5>Benefits</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span> Accurate fetal dating and growth monitoring.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Early detection of fetal anomalies.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Enhanced patient care and satisfaction.</span></li>
+               </ul> 
+               </div>
+               </div>
+          </section>
+          <section id="section5" style="display: none;">
+            <h2 style="text-align: center;">Pathology</h2>
+            <img src="assets/img/path.jpg" alt="" class="img-fluid services-img">
+              <h3>The Pathology Department plays a crucial role in a Maternity Hospital, providing accurate and timely diagnostic services to ensure optimal patient care.</h3>
+              <div class="row">
+                <h5>Services</h5>
+                <div class="col-md-6">
+                  
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span>Histopathology: Examination of tissue samples.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Cytopathology: Examination of cell samples.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Hematology: Blood and blood disorder testing.</span></li>
+                 </ul> 
+                </div>
+               <div class="col-md-6">
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> <span>Biochemistry: Blood chemistry and hormone testing.</span></li>
+                  <li><i class="bi bi-check-circle"></i> <span>Microbiology: Infection detection and antibiotic sensitivity testing.</span></li>
+               </ul> 
+               </div>
+               </div>
+          </section>
+          <section id="section6" style="display: none;">
+            <h2 style="text-align: center;">OPERATION THEATRE</h2>
+            <img src="assets/img/OT.jpg" alt="" class="img-fluid services-img">
+              <h3>The Operating Theater (OT) in Ruxmani lying-in hospital is a critical department where surgical procedures related to women's health and childbirth are performed. The OT team works closely with obstetricians, gynecologists, anesthesiologists, and nurses to ensure safe and effective surgical care.</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Services</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span>Cesarean sections (C-sections).</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Laparoscopic surgeries (e.g., ovarian cyst removal)</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Vaginal deliveries with instrumentation (e.g., forceps, vacuum extraction)</span></li>
+               </ul> 
+                </div>
+               <div class="col-md-6">
+                <h5>OT FACILITIES</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span>State-of-the-art operating rooms with advanced equipment</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Sterilization and disinfection facilities</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Anesthesia machines and monitoring equipment</span></li>
+               </ul> 
+               </div>
+               </div>
+          </section>
+          <section id="section7" style="display: none;">
+            <h2 style="text-align: center;">NICU</h2>
+            <img src="assets/img/nicu.jpg" alt="" class="img-fluid services-img">
+              <h3>A Neonatal Intensive Care Unit (NICU) is a vital component of a hospital, providing specialized care to critically ill or premature newborns</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Key Characteristics</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span>NICU, providing the highest level of care</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Advanced life support equipment (e.g., ventilators, oxygen therapy)</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Expert team of neonatologists, pediatricians, and nurses</span></li>
+               </ul> 
+                </div>
+               <div class="col-md-6">
+                <h5>Quality Indicators</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span> High survival rates for premature and critically ill newborns</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Breastfeeding initiation and maintenance rates.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Parent satisfaction and engagement.</span></li>
+               </ul> 
+               </div>
+               </div>
+          </section>
+          <section id="section8" style="display: none;">
+            <h2 style="text-align: center;">WARDS</h2>
+            <img src="assets/img/wards.jpg" alt="" class="img-fluid services-img">
+              <h3> Stabilization and monitoring: General wards serve as the initial point of care for patients presenting with acute medical conditions, providing stabilization, monitoring, and initial treatment before further assessment or transfer to specialized units if necessary.</h3>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>Functions</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span>to render nursing care to all the admitted patients.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>to provide necessary equipments, essential drugs and other stores required for patient care in an organized manner in the ward</span></li>
+                 </ul> 
+                </div>
+               <div class="col-md-6">
+                <h5>Duties of a Ward</h5>
+                <ul>
+                 <li><i class="bi bi-check-circle"></i> <span> Accurate fetal dating and growth monitoring.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Early detection of fetal anomalies.</span></li>
+                 <li><i class="bi bi-check-circle"></i> <span>Enhanced patient care and satisfaction.</span></li>
+               </ul> 
+               </div>
+               </div>
+          </section>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="d-flex align-items-center">
+            <span class="sitename">Ruxmani Lying-In Hospital</span>
+          </a>
+          <div class="footer-contact pt-3">
+            <p> Babulnath Rd, Opp Babulnath temple,</p><p>Babulnath, Dadi Sheth Wadi,</p>
+            <p> Malabar Hill, Mumbai, Maharashtra 400007</p>
+            <p class="mt-3"><strong>Phone:</strong> <span>022 3515 2512</span></p>
+            <p><strong>Email:</strong> <span>ruxmanihospital@yahoo.in</span></p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-3 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+          </ul>
+        </div>
+
+        <!-- <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+          </ul>
+        </div> -->
+
+        <div class="col-lg-4 col-md-12">
+          <h4>Follow Us</h4>
+          <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+          <div class="social-links d-flex">
+            <!-- <a href=""><i class="bi bi-twitter-x"></i></a> -->
+            <a href="https://www.facebook.com/share/fEtGFPUMpBAkXFw1/?mibextid=LQQJ4d"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/ruxmanilyinginhospital?igsh=MTg4ZGx2bWQ1cW5nNw=="><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/company/ruxmani-lying-in-hospital/"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">RuxmaniLying-InHospital</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+        Designed by <a href="http://www.goldsystem.biz/.">Gold Systems And Communication PVT. LTD.</a>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

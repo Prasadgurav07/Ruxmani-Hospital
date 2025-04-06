@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <title>Ruxmani Lying in Hospital Schedule</title>
+  <style>
+    
+    h1 {
+        padding:10px;
+      text-align: center;
+    }
+    .table-container {
+      overflow-x: auto;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 600px;
+      
+    }
+    th, td {
+      border: 1px solid #222222;
+      padding: 8px;
+      text-align: center;
+      text-transform: capitalize;
+    }
+    th {
+  /* --accent-color: #4154f1; Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  background-color: #4154f1;
+  color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    caption {
+      caption-side: top;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center; 
+      font-size: 22px;
+    }
+  </style>
+</head>
+<body>
+    
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <img src="assets/img/Ruxmani_logo.png" alt="">
+        <!-- <h1 class="sitename">FlexStart</h1> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html" class="active">Home<br></a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+          <li><a href="blog-details.html">Doctors</a></li>
+           <li><a href="timetable.html">TimeTable</a></li>
+           <!-- <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a> 
+            <ul>
+              <li><a href="#services">Services</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li> -->
+          <li class="listing-dropdown"><a href="#departments"><span>Departments</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li>
+                <a href="department-details.html">Physiotherapy</a>
+                <a href="department-details.html">Sonography</a>
+              </li>
+              <li>
+                <a href="department-details.html">Outdoor Patient Department</a>
+                <a href="department-details.html">Indoor Patient Department</a>
+              </li>
+              <li>
+                <a href="department-details.html">Pathology</a>
+                <a href="department-details.html">Operation Theatre</a>
+              </li>
+              <li>
+                <a href="department-details.html">NICU Department</a>
+                <a href="department-details.html">Wards</a>
+              </li>
+            </ul>
+          </li> 
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+    </div>
+  </header>
+
+
+    <!-- Page Title -->
+    <div class="page-title">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Medical Director: Dr. J. P. Pandey</h1>
+              <!-- <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">TimeTable</li>
+          </ol>
+        </div>
+      </nav>
+    <!-- End Page Title -->
+
+  <h1></h1>
+</div>
+  <div class="table-container">
+    <table>
+      <caption>Hon. Obstetrician & Gynaecologist Schedule</caption>
+      <thead>
+        <tr>
+          <th>Sr No.</th>
+          <th>Doctor</th>
+          <th>Day</th>
+          <th>Time</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>1</td><td>Dr. Kinjal Shah</td><td>Monday</td><td>9 AM to 10 AM</td></tr>
+        <tr><td>2</td><td>Dr. Priya Thakur</td><td>Monday</td><td>10 AM to 11 AM</td></tr>
+        <tr><td>3</td><td>Dr. Yashwanti Mody</td><td>Monday</td><td>11 AM to 12 PM</td></tr>
+        <tr><td>4</td><td>Dr. Pradeep Mehta</td><td>Monday</td><td>1 PM to 2 PM</td></tr>
+        <tr><td>1</td><td>Dr. Devika Chopra</td><td>Tuesday</td><td>11 AM to 12 PM</td></tr>
+        <tr><td>2</td><td>Dr. Bhoomika Mundhe</td><td>Tuesday</td><td>12 PM to 1 PM</td></tr>
+        <tr><td>3</td><td>Dr. Shreyash Patil</td><td>Tuesday</td><td>2 PM to 3 PM</td></tr>
+        <tr><td>1</td><td>Dr. Priyanka Shah</td><td>Wednesday</td><td>9 AM to 10 AM</td></tr>
+        <tr><td>2</td><td>Dr. Bhoomika Mundhe</td><td>Wednesday</td><td>10 AM to 11 AM</td></tr>
+        <tr><td>3</td><td>Dr. Devika Chopra</td><td>Wednesday</td><td>11 AM to 12 PM</td></tr>
+        <tr><td>4</td><td>Dr. Anjali Mehta</td><td>Wednesday</td><td>1 PM to 3 PM</td></tr>
+        <tr><td>1</td><td>DR. Sujata Dalvi</td><td>Thursday</td><td>10 AM TO 11 AM</td><tr>
+        <tr><td>2</td><td>DR. Shweta Patil</td><td>Thursday</td><td>1 PM TO 2 PM</td><tr>
+        <tr><td>1</td><td>DR. Nazeema Lalla</td><td>Friday</td><td>10 AM TO 11 AM</td><tr>
+        <tr><td>2</td><td>DR. Danny Laliwada</td><td>Friday</td><td>12 PM 1 PM</td><tr>
+        <tr><td>3</td><td>DR. V.N.Khambhatti</td><td>Friday</td><td>1 PM TO 3 PM</td><tr>
+        <tr><td>1</td><td>DR. Anil Pooran</td><td>Saturday</td><td>9 AM TO 10 AM</td><tr>
+        <tr><td>2</td><td>DR. Milloni Gadoya</td><td>Saturday</td><td>10 AM TO 11 AM</td><tr>
+        <tr><td>3</td><td>DR. Medha KOthari</td><td>Saturday</td><td>11 AM TO 12 PM</td><tr>
+        <tr><td>4</td><td>DR. Rajesh Lalla</td><td>Saturday</td><td>12 PM 1 PM</td><tr>
+        <tr><td>5</td><td>DR. Tejal Soni</td><td>Saturday</td><td>2 PM TO 3 PM</td><tr>
+    </tbody>
+    </table>
+    <table>
+        <caption style="text-align: center;">HON.NEONATOLOGIST</caption>
+        <thead>
+          <tr>
+            <th>Sr No.</th>
+            <th>Doctor</th>
+            <th>Day</th>
+            <th>Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>Dr. Manjula Rupani</td><td>Monday</td><td>11 AM to 12 PM</td></tr>
+          <tr><td>1</td><td>Dr. Gaurav Shah</td><td>Tuesday</td><td>9 AM to 10 AM</td></tr>
+          <tr><td>2</td><td>Dr. Bela Doctor</td><td>Tuesday</td><td>12 PM to 1 PM</td></tr>
+          <tr><td>1</td><td>Dr. Nehal Shah</td><td>Wednesday</td><td>10 AM to 11 AM</td></tr>
+          <tr><td>1</td><td>Dr. Shashank Parekhji</td><td>Thursday</td><td>11 AM to 12 PM</td></tr>
+          <tr><td>1</td><td>Dr. Dhiren Shah</td><td>Friday</td><td>10 AM to 11 AM</td></tr>
+          <tr><td>2</td><td>Dr. Rujuta Parikh</td><td>Friday</td><td>3 PM to 4 PM</td></tr>
+          <tr><td>1</td><td>Dr. M. Laxmi</td><td>Saturday</td><td>11 AM to 12 PM</td></tr>
+      </tbody>
+      </table>
+      <table>
+        <caption style="text-align: center;">HON. PAEDIATRIC SURGEON</caption>
+        <thead>
+          <tr>
+            <th>Sr No.</th>
+            <th>Doctor</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+            <tbody>
+                <tr><td>1</td><td>Dr. Hussain Kotwala</td><td>On Call</td></tr>
+                <tr><td>2</td><td>Dr. Nargis Barsiwala</td><td>On Call</td></tr>
+            </tbody>
+      </table>
+  </div>
+
+</body>
+</html>
